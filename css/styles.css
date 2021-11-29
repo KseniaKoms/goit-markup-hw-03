@@ -1,0 +1,242 @@
+/* primary text color - #757575 */
+/*title text color - #212121 */
+/* color h1 - #FFFFFF */
+/* color logo - #000000 */
+/* accent color - #2196F3 */
+/* background color-1 - #F5F4FA*/
+/* background color-2 - #2F303A */
+/* #188ce8 */
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*============Header styles start here=======*/
+
+/* logo */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+
+/*navigation*/
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-link.current {
+  color: var(--accent-color);
+}
+
+.contact-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+/*hero */
+
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+.button {
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  text-align: center;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
+
+/*features*/
+
+.feature-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.feature-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/*work*/
+
+.work-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/*team*/
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+}
+.team-member {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.position {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #2f303a;
+}
+
+address {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.logotype {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.logotype-color {
+  color: var(--accent-color);
+}
+
+/*filters portfolio*/
+
+.filter {
+  cursor: pointer;
+  color: var(--secondary-text-color);
+  background-color: #f5f4fa;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.filter:hover,
+.filter:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*portfolio*/
+
+.caption {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
