@@ -186,17 +186,23 @@ img {
 }
 
 /*features*/
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
 }
 
+.features-section {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+
 .features-list {
   display: flex;
+}
+
+.features-list .item {
+  max-width: 270px;
 }
 
 .features-list .item + .item {
@@ -213,13 +219,18 @@ img {
 }
 
 .feature-description {
-  max-width: 270px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /*work*/
+
+.work-section {
+  padding-top: 47px;
+  padding-bottom: 47px;
+}
 
 .work-title {
   margin-bottom: 50px;
@@ -229,6 +240,7 @@ img {
   font-size: 36px;
   line-height: 1.5;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .work-list {
   display: flex;
@@ -238,6 +250,13 @@ img {
 }
 
 /*team*/
+
+.team-section {
+  padding-top: 47px;
+  padding-bottom: 94px;
+
+  background-color: #f5f4fa;
+}
 
 .team {
   background-color: #f5f4fa;
@@ -251,6 +270,7 @@ img {
   font-size: 36px;
   line-height: 1.5;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-list {
@@ -268,24 +288,28 @@ img {
 }
 
 .team-member {
-  margin-top: 30px;
   margin-bottom: 10px;
-  text-align: center;
 
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .position {
-  margin-bottom: 30px;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
+.card-desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /*footer*/
 
 .footer {
@@ -342,7 +366,8 @@ address {
 .filters-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .filter {
   cursor: pointer;
@@ -382,6 +407,7 @@ address {
 .works-list {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 94px;
 }
 
 .works-list .item {
