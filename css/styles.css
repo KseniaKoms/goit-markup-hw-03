@@ -52,12 +52,15 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
 /*main nav box*/
 
 .main-nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 img {
@@ -194,7 +197,7 @@ img {
 
 .features-section {
   padding-top: 94px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
 }
 
 .features-list {
@@ -228,8 +231,8 @@ img {
 /*work*/
 
 .work-section {
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .work-title {
@@ -238,7 +241,7 @@ img {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.5;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -252,7 +255,7 @@ img {
 /*team*/
 
 .team-section {
-  padding-top: 47px;
+  padding-top: 94px;
   padding-bottom: 94px;
 
   background-color: #f5f4fa;
@@ -363,11 +366,15 @@ address {
 
 /*filters portfolio*/
 
+.filters-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .filters-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .filter {
   cursor: pointer;
